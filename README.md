@@ -1,11 +1,6 @@
-# Sample Snack app
+# AppMobileApiTVMAZE
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
-
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
-
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
-
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+Cette application mobile utilise  l’API de la plateforme TVMaze qui permet d’avoir la liste des films et séries disponibles sur sa plateforme.
+- Au changement du texte dans le champ de saisie « search », nous devons faire appel à l’api TVMaze. 
+- Un message de « téléchargement en cours / loading … » s’affiche pendant la recherche et doit disparaitre une fois que la réponse est disponible.
+- Au clic sur le bouton « Websiite » la page web du film s’ouvre dans le navigateur web en utilisant la librairie WebView
